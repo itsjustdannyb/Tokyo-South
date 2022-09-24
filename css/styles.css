@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.cover {
+    background-image: url(../images/Tokyo\ Market.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+a:hover{
+    color: rgb(243, 2, 123);
+}
+
+a li {
+    list-style-type: none;
+}
+
+
+#logo{
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 0 0 45px;
+    color: white;
+}
+
+
+
+#navbar{
+    float: right;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    margin: 25px 65px 0 0;
+}
+    
+
+#showcase .showcase-text{
+    color: white;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+#showcase .showcase-text h1{
+    font-size: 115px;
+    font-weight: 900;
+}
+
+#showcase .showcase-text h2{
+    font-size: 64;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.btn{
+    font-size: 64;
+    font-weight: 700;
+    border: 3px solid white;
+    border-radius: 60px;
+    padding: 15px 50px;
+    
+}
+
+.btn:hover{
+    background: white;
+    color: #051120;
+}
+
+#footer{
+    min-height: 200px;
+    background-color: #051120;
+}
+
+#footer p{
+    color:white;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+@media(max-width: 768px){
+    #showcase .showcase-text{
+        color: white;
+        text-align: center;
+        margin-top: 20vh;
+    }
+
+    #logo{
+        
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        
+    }
+    #navbar{
+        float: none;
+    }
+}
