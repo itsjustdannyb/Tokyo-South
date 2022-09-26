@@ -67,12 +67,13 @@ a li {
 #navbar ul li{
     padding: 10px 15px;
 }
-    
+
+
 
 #showcase .showcase-text{
     color: white;
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 80px;
 }
 
 #showcase .showcase-text h1{
