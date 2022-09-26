@@ -11,15 +11,16 @@
 
 /* Header */
 .cover {
-    background-image: url(../images/Tokyo\ Market.jpg);
+    background-image: url(../images/City\ at\ night.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
     
 }
 
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -46,41 +47,49 @@ a li {
 
 
 #logo{
-    float: left;
+
     font-size: 24px;
     font-weight: 700;
-    padding: 15px 0 0 45px;
     color: white;
+    padding-top: 10px;
 }
 
-
-
-#navbar{
-    float: right;
+#logo h2{
+    text-align: center;
 }
 
 #navbar ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navbar ul li{
-    margin: 25px 65px 0 0;
+    padding: 10px 15px;
 }
     
 
 #showcase .showcase-text{
     color: white;
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 #showcase .showcase-text h1{
-    font-size: 115px;
+    font-size: 84px;
     font-weight: 900;
+    line-height: 1;
+    color: white;
+}
+
+.outline{
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
 }
 
 #showcase .showcase-text h2{
-    font-size: 64;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -111,21 +120,3 @@ a li {
 }
 
 
-@media(max-width: 768px){
-    #showcase .showcase-text{
-        color: white;
-        text-align: center;
-        margin-top: 20vh;
-    }
-
-    #logo{
-        
-        font-size: 24px;
-        font-weight: 700;
-        color: white;
-        
-    }
-    #navbar{
-        float: none;
-    }
-}
